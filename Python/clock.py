@@ -1,7 +1,11 @@
 """
 @author mbartoli
 
-Calculate the angle between the hour and minutes hands
+Calculate the angle between the hour and minutes hands for a valid time
+of the format HOUR:MIN. example 2:20 or 15:24.
+
+@usage python clock.py HOUR:MIN
+example: python clock.py 8:12
 """
 import sys
 
